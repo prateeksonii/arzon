@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'CocoSharp';
+  src: url('/fonts/CocoSharpL-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Uncut-Sans';
+  src: url('/fonts/Uncut-Sans-Regular.otf');
+}
+
+@font-face {
+  font-family: 'Uncut-Sans';
+  src: url('/fonts/Uncut-Sans-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Uncut-Sans';
+  src: url('/fonts/Uncut-Sans-Medium.otf');
+  font-weight: 500;
+}
+
+body {
+  @apply font-sans;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-head;
+}
